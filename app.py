@@ -15,6 +15,7 @@ with st.container():
     st.title('¡Feliz primer mes juntos! ❤️')
     st.subheader('Análisis especial de nuestro chat de WhatsApp')
     st.write('Cada mensaje, emoji y palabra cuenta nuestra historia. ¡Te amo Paola! 🥰')
+    st.write('Un mes de novios es solo el inicio de algo con mucho futuro. 🥰')
 
 # Carrusel de fotos de la pareja
 try:
@@ -23,8 +24,8 @@ try:
         {
             "img": f"Resources/{i}.jpeg",
             "caption": f"Foto {i}",
-            "title": f"Foto {i}",
-            "text": f"Juntos en la foto {i} ❤️"
+            "title": f"",
+            "text": f""
         } for i in range(1, 9)
     ]
     st.markdown('---')
